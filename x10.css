@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.background {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  color: #4659ff;
+  text-align: center;
+  margin: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+  background-color: #e5d8ff;
+  color: #4659ff;
+}
+
+.signin {
+  border-radius: .5em;
+  background-image: url("darkblue.jpg");
+  display: inline-block;
+  padding:10px;
+}
+
+.welcome {
+  border-radius: .5em;
+  background-image: url("darkblue.jpg");
+  display: inline-block;
+  padding: 5px;
+  margin: 0px;
+}
+
+.name {
+  border-radius: .5em;
+  background-image: url("darkblue.jpg");
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.dystopia {
+  border-radius: .5em;
+  background-image: url("darkblue.jpg");
+  display: inline-block;
+  padding: 15px;
+  margin: 0px;
+}
+
+table {
+  border: 2px solid blue;
+  color: #4659ff;
+  text-align: center;
+}
+
+td {
+  border: 2px solid purple;
+  padding: 5px;
+  color: #4659ff;
+  text-align: center;
+}
+
+.pass {
+  display: block;
+  font: .9rem 'Fira Sans', sans-serif;
+}
+
+.navbar{
+  background-image: url("darkblue.jpg");
+  text-align: center;
+  padding: 10px;
+  margin-top: 0px;
+  color: #4659ff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a:visited {
+  color: #b0a8f0;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav a:link{
+  color: #4659ff;
+}
+
+nav a:visited{
+  color: #4659ff;
+}
+
+nav a:hover{
+  color: #b0a8f0;
+}
+
+nav a:active{
+  color: #b0a8f0;
+}
+
+#home, #admin, #previousPurchases, #cart, #dystopia, #signout {
+  padding: 20px;
+}
